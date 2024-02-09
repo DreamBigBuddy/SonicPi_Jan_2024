@@ -1,6 +1,9 @@
 # Playing a sample
 sample :ambi_drone, rate: 0.5
 
+# Playing an external sample
+sample "C://Python//Teaching//2024//Sonic Pi//ChordExample.wav"
+
 # Play a chord
 play_chord [:C4, :E4, :G4]
 
